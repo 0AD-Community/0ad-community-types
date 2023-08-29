@@ -5,7 +5,9 @@
 // REGISTER_MAPGEN_FUNC(SetProgress);
 // REGISTER_MAPGEN_FUNC(GetMicroseconds);
 // REGISTER_MAPGEN_FUNC(ExportMap);
-
+// REGISTER_MAPGEN_FUNC_NAME(LoadScripts, "LoadLibrary");
+// REGISTER_MAPGEN_FUNC_NAME(LoadHeightmap, "LoadHeightmapImage");
+// REGISTER_MAPGEN_FUNC(LoadMapTerrain);
 declare namespace Engine {
   /**
    * @TODO
@@ -41,4 +43,19 @@ declare namespace Engine {
    * @TODO
    */
   function ExportMap(): void;
+
+  /**
+   * @TODO
+   */
+  function LoadScripts(): void;
+
+  /**
+   * @TODO
+   */
+  function LoadHeightmap(): void;
+
+  /**
+   * @TODO
+   */
+  function LoadMapTerrain(): void;
 }
