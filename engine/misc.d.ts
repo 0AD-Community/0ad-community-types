@@ -9,11 +9,6 @@ declare namespace Engine {
   /**
    * @TODO
    */
-  function RegisterGlobal(variable: string, value: any): void;
-
-  /**
-   * @TODO
-   */
   function PostCommand(): void;
 
   /**
@@ -36,9 +31,4 @@ declare namespace Engine {
     height: any,
     threshold: any,
   ): void;
-
-  /**
-   * @TODO
-   */
-  function GetTemplate(templateName: string): string;
 }

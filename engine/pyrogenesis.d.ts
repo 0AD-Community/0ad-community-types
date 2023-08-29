@@ -3,6 +3,7 @@
 
 /// <reference path="./scriptinterface/ScriptInterface.d.ts" />
 /// <reference path="./graphics/GameView.d.ts" />
+/// <reference path="./graphics/MapGenerator.d.ts" />
 /// <reference path="./gui/GUIManager.d.ts" />
 /// <reference path="./i18n/L10n.d.ts" />
 /// <reference path="./lobby/Lobby.d.ts" />
@@ -21,5 +22,6 @@
 /// <reference path="./ps/VFS.d.ts" />
 /// <reference path="./ps/VisualReplay.d.ts" />
 /// <reference path="./simulation2/Simulation.d.ts" />
+/// <reference path="./simulation2/ComponentManager.d.ts" />
 /// <reference path="./soundmanager/Sound.d.ts" />
 /// <reference path="./misc.d.ts" />
