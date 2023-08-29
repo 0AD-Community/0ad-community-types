@@ -1,0 +1,26 @@
+{
+  "name": "@0ad-community/types",
+  "version": "27.0.0",
+  "description": "",
+  "author": "Ilan Frumer <ilanfrumer@gmail>",
+  "license": "GPL-3.0-or-later",
+  "types": "types/common.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0AD-Community/0ad-community-types.git"
+  },
+  "scripts": {
+    "generate": "node lib/generate.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "glob": "^10.3.3",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "eslint": "^8.48.0",
+    "eslint-plugin-brace-rules": "^0.1.6",
+    "prettier": "^3.0.2"
+  }
+}
