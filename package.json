@@ -10,6 +10,7 @@
     "url": "https://github.com/0AD-Community/0ad-community-types.git"
   },
   "scripts": {
+    "checkout": "node lib/checkout.js",
     "generate": "node lib/generate.js"
   },
   "devDependencies": {
