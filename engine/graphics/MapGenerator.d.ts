@@ -8,6 +8,12 @@
 // REGISTER_MAPGEN_FUNC_NAME(LoadScripts, "LoadLibrary");
 // REGISTER_MAPGEN_FUNC_NAME(LoadHeightmap, "LoadHeightmapImage");
 // REGISTER_MAPGEN_FUNC(LoadMapTerrain);
+// m_ScriptInterface->SetGlobal("TERRAIN_TILE_SIZE", static_cast<int>(TERRAIN_TILE_SIZE));
+// m_ScriptInterface->SetGlobal("MAP_BORDER_WIDTH", static_cast<int>(MAP_EDGE_TILES));
+
+declare const TERRAIN_TILE_SIZE: number;
+declare const MAP_BORDER_WIDTH: number;
+
 declare namespace Engine {
   /**
    * @TODO
@@ -32,7 +38,7 @@ declare namespace Engine {
   /**
    * @TODO
    */
-  function SetProgress(): void;
+  function SetProgress(progress: number): void;
 
   /**
    * @TODO
@@ -47,12 +53,12 @@ declare namespace Engine {
   /**
    * @TODO
    */
-  function LoadScripts(): void;
+  function LoadLibrary(libraryName: string): boolean;
 
   /**
    * @TODO
    */
-  function LoadHeightmap(): void;
+  function LoadHeightmapImage(): void;
 
   /**
    * @TODO

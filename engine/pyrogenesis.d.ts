@@ -23,5 +23,5 @@
 /// <reference path="./ps/VisualReplay.d.ts" />
 /// <reference path="./simulation2/Simulation.d.ts" />
 /// <reference path="./simulation2/ComponentManager.d.ts" />
+/// <reference path="./simulation2/CCmpAIManager.d.ts" />
 /// <reference path="./soundmanager/Sound.d.ts" />
-/// <reference path="./misc.d.ts" />
