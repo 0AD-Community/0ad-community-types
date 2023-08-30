@@ -4,7 +4,7 @@
   "description": "",
   "author": "Ilan Frumer <ilanfrumer@gmail>",
   "license": "GPL-3.0-or-later",
-  "types": "types/common.d.ts",
+  "types": "common.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/0AD-Community/0ad-community-types.git"
