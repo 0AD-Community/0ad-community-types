@@ -11,6 +11,7 @@
   },
   "scripts": {
     "checkout": "node lib/checkout.js",
+    "gpt": "node lib/gpt.js",
     "generate": "node lib/generate.js"
   },
   "devDependencies": {
