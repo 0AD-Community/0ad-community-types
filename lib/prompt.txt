@@ -1,0 +1,7 @@
+Refactor the provided TypeScript declaration file that corresponds to the JavaScript API exposed by my game engine. Your task is to generate a comprehensive declaration file encompassing all available methods. To accomplish this, leverage information from both the implementation file and the provided usage examples.
+
+When generating this declaration file, remember to assign the namespace 'Engine' to these methods, except in cases where a method pertains to a global constant. It is imperative that you meticulously rectify parameter names and types to ensure a precise correspondence with the equivalent C++ implementation.
+
+While crafting the declaration file, ensure that each declaration is accompanied by JSDoc comments, serving as elucidating documentation. Additionally, for each function, incorporate a reference pointing to the corresponding C++ source, employing CPP function signatures like 'C++: JSI_GameView::GetCameraPivot.' Alongside, provide a comprehensive narrative detailing the functionality of each method.
+
+Concentrate solely on this task, refraining from introducing any extraneous content into your responses.
