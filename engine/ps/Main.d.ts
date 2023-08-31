@@ -11,6 +11,8 @@
 // ScriptFunction::Register<&GetTextWidth>(rq, "GetTextWidth");
 // ScriptFunction::Register<&CalculateMD5>(rq, "CalculateMD5");
 
+/// <reference path="../interfaces/IMapSettings.d.ts" />
+
 declare namespace Engine {
   /**
    * @TODO
@@ -50,7 +52,7 @@ declare namespace Engine {
   /**
    * @TODO
    */
-  function LoadMapSettings(): void;
+  function LoadMapSettings(path: string): IMapSettings;
 
   /**
    * @TODO
