@@ -2,3 +2,4 @@ node_modules/
 generated/
 gpt/
 0ad/
+yarn.lock
